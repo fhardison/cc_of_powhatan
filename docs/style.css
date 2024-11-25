@@ -1,0 +1,96 @@
+li {
+  margin-top:1em;
+}
+
+/* Main color palette inspired by rural, natural tones */
+:root {
+    /* Primary Colors */
+    --primary-dark: #4A5D23;    /* Deep sage green */
+    --primary-main: #7A8B52;    /* Muted olive green */
+    --primary-light: #B7C4A5;   /* Light sage */
+    
+    /* Neutral Colors */
+    --neutral-dark: #5C4B3C;    /* Warm brown */
+    --neutral-main: #8C7A6B;    /* Soft taupe */
+    --neutral-light: #E8E2D7;   /* Cream */
+    
+    /* Accent Colors */
+    --accent-warm: #D48C45;     /* Warm honey */
+    --accent-cool: #7790A8;     /* Dusty blue */
+    
+    /* Text Colors */
+    --text-dark: #2C2418;       /* Deep brown */
+    --text-light: #F8F6F2;      /* Off-white */
+}
+
+/* Basic element styling */
+body {
+    background-color: var(--neutral-light);
+    color: var(--text-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-dark);
+}
+
+a {
+    color: var(--primary-main);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-warm);
+    text-decoration: underline;
+}
+
+/* Form elements */
+input, textarea, select {
+    border: 2px solid var(--neutral-main);
+    background-color: var(--text-light);
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: var(--accent-cool);
+    outline: none;
+}
+
+/* Buttons */
+button {
+    background-color: var(--primary-main);
+    color: var(--text-light);
+    border: none;
+}
+
+button:hover {
+    background-color: var(--primary-dark);
+}
+
+/* Quote blocks */
+blockquote {
+    border-left: 4px solid var(--primary-light);
+    background-color: var(--neutral-light);
+    color: var(--neutral-dark);
+}
+
+/* List styling */
+ul, ol {
+    color: var(--text-dark);
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: var(--primary-light);
+    color: var(--text-dark);
+}
+
+td {
+    border: 1px solid var(--neutral-main);
+}
+
+tr:nth-child(even) {
+    background-color: var(--neutral-light);
+}
