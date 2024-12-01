@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Section Scrollable Layout</title>
+    <style>
+        /* Reset default margins and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            scroll-behavior: smooth;
+        }
+
+        /* Full height sections with different colors */
+        .section {
+            height: 100vh;
+            width: 100%;
+            /* display: flex;
+            justify-content: center;
+            align-items: center;
+            */
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+            display: grid;
+            grid-template-rows: 35% 40% 25%;
+            grid-template-columns: 100%;
+            padding:4px;
+        }
+
+        /* Unique background colors for each section */
+        .section-1 {
+            background-color: gray; /* #3498db; */ /* Blue */
+        }
+
+        .section-2 {
+            background-color: rgb(50, 76, 67) /* #2ecc71; /* Green */
+        }
+
+        .section-3 {
+            background-color: rgb(50,76, 67); /* Red */
+        }
+
+        .grid-header {
+            grid-row: 1;
+        }
+        .grid-body { 
+            grid-row: 2;
+        }
+        .grid-footer {
+            grid-row: 3;
+            display: flex;
+        }
+        .grid-footer > * {
+            display: inline-block;
+            align-self: flex-end;
+            text-align:center;
+            width:100%;
+            padding-bottom:8px;
+        } 
+
+        .grid-footer a { 
+        color: white;}
+        
+    </style>
+</head>
+<body>
+    <div class="section section-1">
+        <div class="grid-header"><h2>Feeling lost or lonely in your homeschooling?</h2></div>
+        <div class="grid-footer"><div>Then keep reading 👇</div></div>
+    </div>
+    
+    <div class="section section-2">
+        <div class="grid-header"><h2>Classical Conversations of Powhatan can to help.</h2></div>
+        <div class="grid-body">
+        <p>CC offers: </p>
+        <ul>
+            <li>Community</li>
+            <li>Structure</li>
+            <li>Flexibility</li>
+        </ul>
+        <p>to help you homeschool.</p>
+        </div>
+        <div class="grid-footer"><div>Sound good? 👇</div></div>
+    </div>
+    
+    <div class="section section-3">
+
+        <div class="grid-header"><h2>Ready to learn more?</h2></div>
+        <div class="grid-body"><img style="height:100%;" src="cc_pow_sharable-2.png"></img>
+        <div class="grid-footer"><div><a href="https://classicalconversations.com/community-search/?cid=3dyL">Click here to start your journey</a></div></div>
+        
+    </div>
+</body>
+</html>
