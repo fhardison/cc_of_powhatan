@@ -6,7 +6,7 @@ title: CC of Powhatan
 
 <!-- A Classical Education, Your Way -->
 > If you want to go fast, go alone.
-> If you want to go far, go together
+> If you want to go far, go together.
 <div style="text-align:right;margin-top:0.5em;">-- Proverb</div>
 
 
