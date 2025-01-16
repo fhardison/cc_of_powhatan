@@ -33,7 +33,8 @@ Whether you're a seasoned homeschooler or just starting out, we're here to help.
 
 ## What they're saying
 
-TESTIMONIALS HERE
+> "Going on 6 years strong for our family, our classical Christian community is a wonderful weekly gathering that all my kids look forward to with great anticipation. We love the accountability, affirmation, ideas and encouragement we receive both academically and spiritually. I can't imagine our homeschool life without it!"
+<div style="text-align:right;margin-top:0.5em;">-- Rebekah M.</div>
 
 ## Programs
 
