@@ -12,8 +12,7 @@ title: CC of Powhatan
 
 Are you looking for a homeschooling community that offers a rigorous, yet flexible, education for your child?
 
-Join Classical Conversations of Powhatan.
-
+<div style="color:#4A5D23;font-size: 1.5em;">Join Classical Conversations of Powhatan.</div>
 
 <img style="" src="classroom.jpg"></img>
 
